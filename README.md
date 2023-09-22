@@ -3,6 +3,8 @@ Porting [sndisplay](https://github.com/emchauve/sndisplay/tree/master) library t
 
 Example:
 ```
+import ROOT
+
 def import_arbitrary_module(module_name,path):
     import importlib.util
     import sys
@@ -16,7 +18,7 @@ def import_arbitrary_module(module_name,path):
 
 # or import sndisplay
 sndisplay = import_arbitrary_module('sndisplay',<path-to-sndisplay.py>)
-sndisplay.sndisplay_demonstrator_test()
+ROOT.sndisplay_demonstrator_test()
 ```
 
 ---
