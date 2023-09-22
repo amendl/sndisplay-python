@@ -1,5 +1,5 @@
 # sndisplay-python
-Porting [sndisplay] library to PyROOT. All credits should go to the original code. This is just a wrapper.
+Porting [sndisplay](https://github.com/emchauve/sndisplay/tree/master) library to PyROOT. All credits should go to the original code, this is just a wrapper.
 
 Example:
 ```
